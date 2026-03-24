@@ -69,7 +69,13 @@ En cada instancia corremos el proyecto correspondiente (math-arep-sgb en MathPas
 ## Prueba
 
 Finalmente, verificamos que la aplicación esté funcionando en la instacia AWS:
+
+**Búsqueda lineal:**
 ![img.png](img/img2.png)
+
+**Búsqueda binaria:**
 ![img.png](img/img5.png)
+
+**Búsqueda binaria no exitosa:**
 ![img_1.png](img/img_1.png)
 

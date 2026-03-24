@@ -15,8 +15,8 @@ public class ProxyForwardService {
     private final String passiveBaseUrl;
 
     public ProxyForwardService() {
-        this.activeBaseUrl = getEnvOrDefault("MATH_SERVICE_ACTIVE_URL", "http://localhost:8080");
-        this.passiveBaseUrl = getEnvOrDefault("MATH_SERVICE_PASSIVE_URL", "http://localhost:8081");
+        this.activeBaseUrl = getEnvOrDefault("MATH_SERVICE_ACTIVE_URL", "ec2-32-192-239-202.compute-1.amazonaws.com");
+        this.passiveBaseUrl = getEnvOrDefault("MATH_SERVICE_PASSIVE_URL", "ec2-32-193-242-81.compute-1.amazonaws.com");
     }
 
     public String forward(String pathAndQuery) {
